@@ -14,7 +14,31 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@easywechat/access-token": ["packages/access-token/src/index.ts"],
+      "@easywechat/platform-aispeech": [
+        "packages/platform-aispeech/src/index.ts"
+      ],
+      "@easywechat/platform-channels": [
+        "packages/platform-channels/src/index.ts"
+      ],
+      "@easywechat/platform-minigame": [
+        "packages/platform-minigame/src/index.ts"
+      ],
+      "@easywechat/platform-miniprogram": [
+        "packages/platform-miniprogram/src/index.ts"
+      ],
+      "@easywechat/platform-offiaccount": [
+        "packages/platform-offiaccount/src/index.ts"
+      ],
+      "@easywechat/platform-oplatform": [
+        "packages/platform-oplatform/src/index.ts"
+      ],
+      "@easywechat/platform-pay": ["packages/platform-pay/src/index.ts"],
+      "@easywechat/platform-work": ["packages/platform-work/src/index.ts"],
+      "@easywechat/platform-xwei": ["packages/platform-xwei/src/index.ts"],
+      "@easywechat/utils": ["packages/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
